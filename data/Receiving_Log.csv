@@ -1,0 +1,11 @@
+PO Number,Receipt Date,Ingredient SKU,Ingredient,Qty Received,Qty Ordered,Discrepancy,Quality Notes
+PO-2026032,03/13/2026,8110-9414,Peanut Butter,1.0,1.0,None,
+PO-2026033,03/01/2026,4736-9663,Tomato Sauce,24.0,24.0,None,OK
+PO-2026034,03/17/2026,5648-5459,Mayonnaise,3.0,3.0,None,
+PO-2026035,03/24/2026,2105-2073,Sriracha Sauce,1.0,1.0,None,Good condition
+PO-2026039,03/08/2026,6371-2006,Jalepeno Pepper Rings,3.0,3.0,None,Good condition
+PO-2026040,03/09/2026,2105-2073,Sriracha Sauce,1.0,1.0,None,OK
+PO-2026041,03/18/2026,5815-9215,Pizza Seasoning,11.0,12.0,Short 1 units,Short shipment - called supplier
+PO-2026043,03/13/2026,3443-2851,Crushed Tomatoes,12.0,12.0,None,Good condition
+PO-2026044,03/19/2026,6745-4173,White Flour,2.0,3.0,Short 1 units,Short shipment - called supplier
+PO-2026045,04/19/2026,2903-5971,Noodles,1.0,1.0,None,Inspected - OK

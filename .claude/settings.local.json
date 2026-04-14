@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp 'G:/My Drive/5 Work-Education/2020- BYU-Idaho/SCM 478/Kunzler-AI/Peak Fuel Company/Peak Fuel Data/Products_Pricing.csv' 'G:/My Drive/5 Work-Education/2020- BYU-Idaho/SCM 478/scm478-course/data/Products___Pricing.csv')",
+      "Bash(cp 'G:/My Drive/5 Work-Education/2020- BYU-Idaho/SCM 478/Kunzler-AI/Peak Fuel Company/Peak Fuel Data/Ingredient_Catalog.csv' 'G:/My Drive/5 Work-Education/2020- BYU-Idaho/SCM 478/scm478-course/data/Ingredient_Catalog.csv')",
+      "Bash(cp 'G:/My Drive/5 Work-Education/2020- BYU-Idaho/SCM 478/Kunzler-AI/Peak Fuel Company/Peak Fuel Data/Vendor Contacts & Terms.csv' 'G:/My Drive/5 Work-Education/2020- BYU-Idaho/SCM 478/scm478-course/data/Vendor_Contacts___Terms.csv')",
+      "Bash(cp 'G:/My Drive/5 Work-Education/2020- BYU-Idaho/SCM 478/Kunzler-AI/Peak Fuel Company/Peak Fuel Data/Sales Log.csv' 'G:/My Drive/5 Work-Education/2020- BYU-Idaho/SCM 478/scm478-course/data/Sales_Log.csv')",
+      "Bash(cp 'G:/My Drive/5 Work-Education/2020- BYU-Idaho/SCM 478/Kunzler-AI/Peak Fuel Company/Peak Fuel Data/Inventory Count.csv' 'G:/My Drive/5 Work-Education/2020- BYU-Idaho/SCM 478/scm478-course/data/Inventory_Count.csv')",
+      "Bash(python3 *)"
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+PO Number,Supplier ID,Supplier Name,Ingredient SKU,Ingredient,Qty Ordered,Unit,Unit Cost,Order Date,Expected Delivery,Actual Delivery,Status
+PO-2026001,SUP-108,Mountain Produce Co,1236-3286,Yellow Onions,50,Each,0.5,03/23/2026,03/30/2026,,In Transit
+PO-2026002,SUP-111,Frenchman's Condiment Co,1250-6521,Chipotle Sauce Base,1,Gallon,8.5,03/23/2026,04/06/2026,,Open
+PO-2026003,SUP-109,Faye's Bakery & Grains,1265-7539,Whole Wheat Tortillas (10-pack),6,Package,7.99,03/23/2026,03/30/2026,,In Transit
+PO-2026004,SUP-121,Norton Spice & Seasonings,1536-2267,Protein Bar Seasoning Mix,12,Package,1.99,03/23/2026,04/06/2026,,Open
+PO-2026005,SUP-114,Hintz Foods,2105-2073,Sriracha Sauce,1,Gallon,7.99,03/23/2026,03/30/2026,,In Transit
+PO-2026006,SUP-102,Bonzo Packaging & Wraps,2207-9179,Flour Tortillas (12-pack),2,Bag,5.49,03/23/2026,03/30/2026,,In Transit
+PO-2026007,SUP-106,Dayshine Farms,2239-4594,Romaine Lettuce,12,Head,0.98,03/23/2026,03/30/2026,,In Transit
+PO-2026008,SUP-115,IdaFarm Dairy,2587-1017,Bell Pepper,10,Each,0.39,03/23/2026,03/30/2026,,In Transit
+PO-2026009,SUP-120,New El Paseo Foods,2765-2073,Salsa,2,Gallon,12.99,03/23/2026,04/06/2026,,Open
+PO-2026010,SUP-101,Alcazar Specialty Imports,3110-2573,Beef Patties,1,Box,49.99,03/16/2026,04/06/2026,,Open
+PO-2026011,SUP-101,Alcazar Specialty Imports,3110-2573,Beef Patties,5,Box,49.99,03/23/2026,04/13/2026,,Open
+PO-2026012,SUP-114,Hintz Foods,3443-2851,Crushed Tomatoes,12,Can,2.99,03/23/2026,03/30/2026,,In Transit
+PO-2026013,SUP-110,Flavorama Seasonings,4586-5229,Dill Pickles,4,Jar,8.69,03/23/2026,04/06/2026,,Open
+PO-2026014,SUP-114,Hintz Foods,4736-9663,Tomato Sauce,24,Can,1.49,03/23/2026,03/30/2026,,In Transit
+PO-2026015,SUP-122,Smellamook Creamery,5583-8272,Shredded Cheddar/Jack Blend,4,Brick,19.99,03/16/2026,03/30/2026,,In Transit
+PO-2026016,SUP-122,Smellamook Creamery,5583-8272,Shredded Cheddar/Jack Blend,9,Brick,19.99,03/23/2026,04/06/2026,,Open
+PO-2026017,SUP-121,Norton Spice & Seasonings,5815-9215,Pizza Seasoning,12,Package,1.99,03/23/2026,04/06/2026,,Open
+PO-2026018,SUP-110,Flavorama Seasonings,5829-7101,Olive Slices,12,Can,2.99,03/23/2026,03/30/2026,,In Transit
+PO-2026019,SUP-105,Craftiness Kitchen Supply,6358-1742,Parmesan Cheese,2,Can,5.5,03/23/2026,03/30/2026,,In Transit
+PO-2026020,SUP-116,Jala Jala Pepper Co,6371-2006,Jalepeno Pepper Rings,5,Jar,4.99,03/23/2026,04/06/2026,,Open
+PO-2026021,SUP-119,Mugiman Naturals,6745-4173,White Flour,1,Package,12.99,03/16/2026,04/13/2026,,Open
+PO-2026022,SUP-119,Mugiman Naturals,6745-4173,White Flour,1,Package,12.99,03/23/2026,04/20/2026,,Open
+PO-2026023,SUP-121,Norton Spice & Seasonings,7473-5857,Taco Seasoning,12,Package,1.99,03/16/2026,03/30/2026,,In Transit
+PO-2026024,SUP-123,Swineman's Specialty Meats,7572-1618,Sausage,3,Package,8.99,03/16/2026,03/30/2026,,In Transit
+PO-2026025,SUP-123,Swineman's Specialty Meats,7572-1618,Sausage,3,Package,8.99,03/23/2026,04/06/2026,,Open
+PO-2026026,SUP-104,Cattleman's Meats & Poultry,8110-9414,Peanut Butter,2,Package,29.99,03/16/2026,03/30/2026,,In Transit
+PO-2026027,SUP-104,Cattleman's Meats & Poultry,8110-9414,Peanut Butter,2,Package,29.99,03/23/2026,04/06/2026,,Open
+PO-2026028,SUP-103,Cal One Produce,8428-3302,Roma Tomatoes,24,Each,0.6,03/23/2026,03/30/2026,,In Transit
+PO-2026029,SUP-118,Luigi's Italian Market,8451-1937,Almond Milk,2,Package,8.47,03/23/2026,04/06/2026,,Open
+PO-2026030,SUP-112,Goodies Baking Supply,9087-5650,Combo Lunch Meat,1,Box,39.99,03/16/2026,04/06/2026,,Open
+PO-2026031,SUP-112,Goodies Baking Supply,9087-5650,Combo Lunch Meat,2,Box,39.99,03/23/2026,04/13/2026,,Open
+PO-2026032,SUP-104,Cattleman's Meats & Poultry,8110-9414,Peanut Butter,1,Package,29.99,02/27/2026,03/13/2026,03/13/2026,Received
+PO-2026033,SUP-114,Hintz Foods,4736-9663,Tomato Sauce,24,Can,1.49,02/22/2026,03/01/2026,03/01/2026,Received
+PO-2026034,SUP-114,Hintz Foods,5648-5459,Mayonnaise,3,Gallon,14.99,03/10/2026,03/17/2026,03/17/2026,Received
+PO-2026035,SUP-114,Hintz Foods,2105-2073,Sriracha Sauce,1,Gallon,7.99,03/17/2026,03/24/2026,03/24/2026,Received
+PO-2026036,SUP-103,Cal One Produce,8428-3302,Roma Tomatoes,24,Each,0.6,03/10/2026,03/17/2026,03/17/2026,Received
+PO-2026037,SUP-121,Norton Spice & Seasonings,7473-5857,Taco Seasoning,36,Package,1.99,03/13/2026,03/27/2026,03/27/2026,Received
+PO-2026038,SUP-110,Flavorama Seasonings,4586-5229,Dill Pickles,1,Jar,8.69,02/19/2026,03/05/2026,03/05/2026,Received
+PO-2026039,SUP-116,Jala Jala Pepper Co,6371-2006,Jalepeno Pepper Rings,3,Jar,4.99,02/17/2026,03/03/2026,03/08/2026,Received
+PO-2026040,SUP-114,Hintz Foods,2105-2073,Sriracha Sauce,1,Gallon,7.99,03/02/2026,03/09/2026,03/09/2026,Received
+PO-2026041,SUP-121,Norton Spice & Seasonings,5815-9215,Pizza Seasoning,12,Package,1.99,03/04/2026,03/18/2026,03/18/2026,Received
+PO-2026042,SUP-121,Norton Spice & Seasonings,7473-5857,Taco Seasoning,24,Package,1.99,03/16/2026,03/30/2026,03/30/2026,Received
+PO-2026043,SUP-114,Hintz Foods,3443-2851,Crushed Tomatoes,12,Can,2.99,03/06/2026,03/13/2026,03/13/2026,Received
+PO-2026044,SUP-119,Mugiman Naturals,6745-4173,White Flour,3,Package,12.99,02/19/2026,03/19/2026,03/19/2026,Received
+PO-2026045,SUP-113,Guiseppi's Fine Foods,2903-5971,Noodles,1,Box,79.85,03/10/2026,04/14/2026,04/19/2026,Received
+PO-2026046,SUP-114,Hintz Foods,9686-6750,Tomato Paste,24,Can,1.49,03/08/2026,03/11/2026,03/11/2026,Received
