@@ -1,0 +1,144 @@
+Date,Customer,Product SKU,Product Name,Quantity,Unit Price,Channel
+01/07/2026,FreshMart Regional,PF-1001,Original Protein Burrito,38,7.99,Retail
+01/06/2026,Canyon Grocery Co-op,PF-1001,Original Protein Burrito,44,7.99,Retail
+01/09/2026,FreshMart Regional,PF-1001,Original Protein Burrito,26,7.99,Retail
+01/05/2026,Summit Fitness Centers,PF-1001,Original Protein Burrito,81,7.99,Wholesale
+01/06/2026,FreshMart Regional,PF-1002,Protein Power Bowl,23,8.49,Retail
+01/09/2026,Mountain Valley Natural Foods,PF-1002,Protein Power Bowl,64,8.49,Retail
+01/08/2026,Summit Fitness Centers,PF-1003,Sunrise Breakfast Wrap,27,6.99,Wholesale
+01/05/2026,Target (Test Stores),PF-1003,Sunrise Breakfast Wrap,74,6.99,Retail
+01/07/2026,Summit Fitness Centers,PF-1004,Peak Bar,20,3.49,Wholesale
+01/06/2026,Good Earth Market,PF-1004,Peak Bar,34,3.49,Retail
+01/08/2026,FreshMart Regional,PF-1005,Green Fuel Smoothie Pack,8,5.99,Retail
+01/07/2026,FreshMart Regional,PF-1005,Green Fuel Smoothie Pack,10,5.99,Retail
+01/05/2026,Target (Test Stores),PF-1005,Green Fuel Smoothie Pack,19,5.99,Retail
+01/12/2026,Alpine Health Foods,PF-1001,Original Protein Burrito,72,7.99,Retail
+01/16/2026,Summit Fitness Centers,PF-1001,Original Protein Burrito,28,7.99,Wholesale
+01/16/2026,Target (Test Stores),PF-1001,Original Protein Burrito,44,7.99,Retail
+01/16/2026,Peak Fuel Website (Shopify),PF-1001,Original Protein Burrito,46,7.99,Direct
+01/13/2026,FreshMart Regional,PF-1002,Protein Power Bowl,15,8.49,Retail
+01/12/2026,Target (Test Stores),PF-1002,Protein Power Bowl,56,8.49,Retail
+01/14/2026,FreshMart Regional,PF-1003,Sunrise Breakfast Wrap,53,6.99,Retail
+01/14/2026,Alpine Health Foods,PF-1003,Sunrise Breakfast Wrap,95,6.99,Retail
+01/13/2026,Peak Fuel Website (Shopify),PF-1004,Peak Bar,23,3.49,Direct
+01/12/2026,Target (Test Stores),PF-1004,Peak Bar,40,3.49,Retail
+01/13/2026,Good Earth Market,PF-1005,Green Fuel Smoothie Pack,17,5.99,Retail
+01/15/2026,Good Earth Market,PF-1005,Green Fuel Smoothie Pack,12,5.99,Retail
+01/16/2026,Target (Test Stores),PF-1005,Green Fuel Smoothie Pack,8,5.99,Retail
+01/14/2026,Canyon Grocery Co-op,PF-1005,Green Fuel Smoothie Pack,9,5.99,Retail
+01/19/2026,Canyon Grocery Co-op,PF-1001,Original Protein Burrito,91,7.99,Retail
+01/22/2026,Peak Fuel Website (Shopify),PF-1001,Original Protein Burrito,104,7.99,Direct
+01/23/2026,FreshMart Regional,PF-1002,Protein Power Bowl,23,8.49,Retail
+01/22/2026,Peak Fuel Website (Shopify),PF-1002,Protein Power Bowl,19,8.49,Direct
+01/22/2026,Summit Fitness Centers,PF-1002,Protein Power Bowl,47,8.49,Wholesale
+01/20/2026,Target (Test Stores),PF-1003,Sunrise Breakfast Wrap,31,6.99,Retail
+01/23/2026,Target (Test Stores),PF-1003,Sunrise Breakfast Wrap,87,6.99,Retail
+01/20/2026,Summit Fitness Centers,PF-1004,Peak Bar,13,3.49,Wholesale
+01/22/2026,Good Earth Market,PF-1004,Peak Bar,14,3.49,Retail
+01/19/2026,FreshMart Regional,PF-1004,Peak Bar,17,3.49,Retail
+01/20/2026,Good Earth Market,PF-1005,Green Fuel Smoothie Pack,17,5.99,Retail
+01/23/2026,Summit Fitness Centers,PF-1005,Green Fuel Smoothie Pack,22,5.99,Wholesale
+01/30/2026,Summit Fitness Centers,PF-1001,Original Protein Burrito,57,7.99,Wholesale
+01/30/2026,Alpine Health Foods,PF-1001,Original Protein Burrito,108,7.99,Retail
+01/30/2026,Mountain Valley Natural Foods,PF-1002,Protein Power Bowl,29,8.49,Retail
+01/28/2026,Target (Test Stores),PF-1002,Protein Power Bowl,41,8.49,Retail
+01/28/2026,FreshMart Regional,PF-1002,Protein Power Bowl,44,8.49,Retail
+01/26/2026,Good Earth Market,PF-1003,Sunrise Breakfast Wrap,49,6.99,Retail
+01/27/2026,Target (Test Stores),PF-1003,Sunrise Breakfast Wrap,27,6.99,Retail
+01/28/2026,FreshMart Regional,PF-1003,Sunrise Breakfast Wrap,28,6.99,Retail
+01/28/2026,Canyon Grocery Co-op,PF-1004,Peak Bar,9,3.49,Retail
+01/30/2026,Good Earth Market,PF-1004,Peak Bar,13,3.49,Retail
+01/28/2026,Mountain Valley Natural Foods,PF-1004,Peak Bar,7,3.49,Retail
+01/26/2026,Alpine Health Foods,PF-1004,Peak Bar,8,3.49,Retail
+01/28/2026,Peak Fuel Website (Shopify),PF-1005,Green Fuel Smoothie Pack,21,5.99,Direct
+01/26/2026,Canyon Grocery Co-op,PF-1005,Green Fuel Smoothie Pack,21,5.99,Retail
+02/05/2026,FreshMart Regional,PF-1001,Original Protein Burrito,55,7.99,Retail
+02/06/2026,FreshMart Regional,PF-1001,Original Protein Burrito,170,7.99,Retail
+02/06/2026,Good Earth Market,PF-1002,Protein Power Bowl,51,8.49,Retail
+02/04/2026,Good Earth Market,PF-1002,Protein Power Bowl,56,8.49,Retail
+02/06/2026,Summit Fitness Centers,PF-1003,Sunrise Breakfast Wrap,37,6.99,Wholesale
+02/04/2026,Canyon Grocery Co-op,PF-1003,Sunrise Breakfast Wrap,39,6.99,Retail
+02/04/2026,Summit Fitness Centers,PF-1003,Sunrise Breakfast Wrap,19,6.99,Wholesale
+02/06/2026,Alpine Health Foods,PF-1003,Sunrise Breakfast Wrap,27,6.99,Retail
+02/03/2026,FreshMart Regional,PF-1004,Peak Bar,10,3.49,Retail
+02/02/2026,FreshMart Regional,PF-1004,Peak Bar,10,3.49,Retail
+02/06/2026,Canyon Grocery Co-op,PF-1004,Peak Bar,16,3.49,Retail
+02/02/2026,Mountain Valley Natural Foods,PF-1005,Green Fuel Smoothie Pack,8,5.99,Retail
+02/02/2026,Canyon Grocery Co-op,PF-1005,Green Fuel Smoothie Pack,31,5.99,Retail
+02/13/2026,Peak Fuel Website (Shopify),PF-1001,Original Protein Burrito,64,7.99,Direct
+02/11/2026,Canyon Grocery Co-op,PF-1001,Original Protein Burrito,212,7.99,Retail
+02/13/2026,Alpine Health Foods,PF-1002,Protein Power Bowl,17,8.49,Retail
+02/13/2026,Good Earth Market,PF-1002,Protein Power Bowl,19,8.49,Retail
+02/12/2026,Alpine Health Foods,PF-1002,Protein Power Bowl,7,8.49,Retail
+02/10/2026,Summit Fitness Centers,PF-1002,Protein Power Bowl,16,8.49,Wholesale
+02/11/2026,FreshMart Regional,PF-1003,Sunrise Breakfast Wrap,51,6.99,Retail
+02/12/2026,Summit Fitness Centers,PF-1003,Sunrise Breakfast Wrap,70,6.99,Wholesale
+02/09/2026,Mountain Valley Natural Foods,PF-1004,Peak Bar,18,3.49,Retail
+02/11/2026,Mountain Valley Natural Foods,PF-1004,Peak Bar,10,3.49,Retail
+02/10/2026,FreshMart Regional,PF-1004,Peak Bar,13,3.49,Retail
+02/12/2026,Canyon Grocery Co-op,PF-1005,Green Fuel Smoothie Pack,30,5.99,Retail
+02/12/2026,Good Earth Market,PF-1005,Green Fuel Smoothie Pack,37,5.99,Retail
+02/17/2026,Target (Test Stores),PF-1001,Original Protein Burrito,109,7.99,Retail
+02/19/2026,FreshMart Regional,PF-1001,Original Protein Burrito,145,7.99,Retail
+02/20/2026,FreshMart Regional,PF-1002,Protein Power Bowl,12,8.49,Retail
+02/17/2026,Mountain Valley Natural Foods,PF-1002,Protein Power Bowl,9,8.49,Retail
+02/19/2026,Good Earth Market,PF-1002,Protein Power Bowl,13,8.49,Retail
+02/17/2026,Alpine Health Foods,PF-1002,Protein Power Bowl,22,8.49,Retail
+02/19/2026,Mountain Valley Natural Foods,PF-1003,Sunrise Breakfast Wrap,39,6.99,Retail
+02/18/2026,Mountain Valley Natural Foods,PF-1003,Sunrise Breakfast Wrap,46,6.99,Retail
+02/18/2026,Alpine Health Foods,PF-1003,Sunrise Breakfast Wrap,64,6.99,Retail
+02/17/2026,Alpine Health Foods,PF-1004,Peak Bar,8,3.49,Retail
+02/16/2026,Target (Test Stores),PF-1004,Peak Bar,7,3.49,Retail
+02/18/2026,Mountain Valley Natural Foods,PF-1004,Peak Bar,15,3.49,Retail
+02/19/2026,Mountain Valley Natural Foods,PF-1005,Green Fuel Smoothie Pack,34,5.99,Retail
+02/16/2026,Good Earth Market,PF-1005,Green Fuel Smoothie Pack,46,5.99,Retail
+02/23/2026,FreshMart Regional,PF-1001,Original Protein Burrito,87,7.99,Retail
+02/26/2026,FreshMart Regional,PF-1001,Original Protein Burrito,77,7.99,Retail
+02/24/2026,FreshMart Regional,PF-1001,Original Protein Burrito,67,7.99,Retail
+02/27/2026,Mountain Valley Natural Foods,PF-1001,Original Protein Burrito,91,7.99,Retail
+02/25/2026,Summit Fitness Centers,PF-1002,Protein Power Bowl,40,8.49,Wholesale
+02/25/2026,Canyon Grocery Co-op,PF-1002,Protein Power Bowl,64,8.49,Retail
+02/24/2026,Target (Test Stores),PF-1003,Sunrise Breakfast Wrap,53,6.99,Retail
+02/26/2026,Target (Test Stores),PF-1003,Sunrise Breakfast Wrap,87,6.99,Retail
+02/26/2026,FreshMart Regional,PF-1004,Peak Bar,7,3.49,Retail
+02/27/2026,FreshMart Regional,PF-1004,Peak Bar,7,3.49,Retail
+02/27/2026,Canyon Grocery Co-op,PF-1004,Peak Bar,25,3.49,Retail
+02/23/2026,Good Earth Market,PF-1005,Green Fuel Smoothie Pack,22,5.99,Retail
+02/25/2026,Canyon Grocery Co-op,PF-1005,Green Fuel Smoothie Pack,12,5.99,Retail
+02/26/2026,Good Earth Market,PF-1005,Green Fuel Smoothie Pack,23,5.99,Retail
+03/06/2026,Target (Test Stores),PF-1001,Original Protein Burrito,144,7.99,Retail
+03/06/2026,Mountain Valley Natural Foods,PF-1001,Original Protein Burrito,79,7.99,Retail
+03/03/2026,Target (Test Stores),PF-1001,Original Protein Burrito,27,7.99,Retail
+03/02/2026,Target (Test Stores),PF-1001,Original Protein Burrito,81,7.99,Retail
+03/04/2026,Good Earth Market,PF-1002,Protein Power Bowl,20,8.49,Retail
+03/04/2026,Canyon Grocery Co-op,PF-1002,Protein Power Bowl,43,8.49,Retail
+03/05/2026,Target (Test Stores),PF-1003,Sunrise Breakfast Wrap,58,6.99,Retail
+03/02/2026,Target (Test Stores),PF-1003,Sunrise Breakfast Wrap,72,6.99,Retail
+03/02/2026,Summit Fitness Centers,PF-1004,Peak Bar,12,3.49,Wholesale
+03/04/2026,Mountain Valley Natural Foods,PF-1004,Peak Bar,28,3.49,Retail
+03/05/2026,Target (Test Stores),PF-1005,Green Fuel Smoothie Pack,23,5.99,Retail
+03/06/2026,Summit Fitness Centers,PF-1005,Green Fuel Smoothie Pack,67,5.99,Wholesale
+03/10/2026,FreshMart Regional,PF-1001,Original Protein Burrito,41,7.99,Retail
+03/11/2026,Mountain Valley Natural Foods,PF-1001,Original Protein Burrito,148,7.99,Retail
+03/10/2026,Good Earth Market,PF-1002,Protein Power Bowl,27,8.49,Retail
+03/11/2026,Mountain Valley Natural Foods,PF-1002,Protein Power Bowl,13,8.49,Retail
+03/10/2026,Mountain Valley Natural Foods,PF-1002,Protein Power Bowl,11,8.49,Retail
+03/09/2026,Canyon Grocery Co-op,PF-1002,Protein Power Bowl,22,8.49,Retail
+03/10/2026,Summit Fitness Centers,PF-1003,Sunrise Breakfast Wrap,67,6.99,Wholesale
+03/10/2026,Canyon Grocery Co-op,PF-1003,Sunrise Breakfast Wrap,19,6.99,Retail
+03/09/2026,Summit Fitness Centers,PF-1003,Sunrise Breakfast Wrap,54,6.99,Wholesale
+03/12/2026,Peak Fuel Website (Shopify),PF-1004,Peak Bar,20,3.49,Direct
+03/11/2026,Canyon Grocery Co-op,PF-1004,Peak Bar,20,3.49,Retail
+03/09/2026,FreshMart Regional,PF-1005,Green Fuel Smoothie Pack,46,5.99,Retail
+03/10/2026,Alpine Health Foods,PF-1005,Green Fuel Smoothie Pack,67,5.99,Retail
+03/18/2026,Alpine Health Foods,PF-1001,Original Protein Burrito,86,7.99,Retail
+03/17/2026,Canyon Grocery Co-op,PF-1001,Original Protein Burrito,125,7.99,Retail
+03/18/2026,Canyon Grocery Co-op,PF-1002,Protein Power Bowl,22,8.49,Retail
+03/16/2026,Target (Test Stores),PF-1002,Protein Power Bowl,30,8.49,Retail
+03/20/2026,Peak Fuel Website (Shopify),PF-1003,Sunrise Breakfast Wrap,70,6.99,Direct
+03/20/2026,Summit Fitness Centers,PF-1003,Sunrise Breakfast Wrap,36,6.99,Wholesale
+03/16/2026,Peak Fuel Website (Shopify),PF-1003,Sunrise Breakfast Wrap,41,6.99,Direct
+03/20/2026,Target (Test Stores),PF-1004,Peak Bar,8,3.49,Retail
+03/16/2026,Target (Test Stores),PF-1004,Peak Bar,23,3.49,Retail
+03/18/2026,Summit Fitness Centers,PF-1005,Green Fuel Smoothie Pack,24,5.99,Wholesale
+03/20/2026,Summit Fitness Centers,PF-1005,Green Fuel Smoothie Pack,44,5.99,Wholesale
