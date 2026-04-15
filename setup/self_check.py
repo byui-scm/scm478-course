@@ -1,95 +1,140 @@
 """
-SCM 478 Environment Self-Check
-Run from the repo root: python setup/self_check.py
+SCM 478 - Self-Check Module
+Peak Fuel Foods Supply Chain System
+
+Students select which assignment to check from a dropdown.
+Only that assignment's checks are displayed.
 """
 
-import sys
-import importlib
-import os
-from pathlib import Path
-
-PASS = "[PASS]"
-FAIL = "[FAIL]"
-
-results = []
+import streamlit as st
 
 
-def check(label, ok, hint=""):
-    status = PASS if ok else FAIL
-    msg = f"{status} {label}"
-    if not ok and hint:
-        msg += f"\n       Hint: {hint}"
-    results.append((ok, msg))
-    print(msg)
-
-
-print("SCM 478 Environment Self-Check")
-print("=" * 40)
-
-# Python version
-major, minor = sys.version_info[:2]
-py_ok = major == 3 and minor >= 10
-check(
-    f"Python version: {major}.{minor}.{sys.version_info[2]}",
-    py_ok,
-    "Install Python 3.10 or later from python.org",
-)
-
-# Required packages
-for package, install_name in [
-    ("pandas", "pandas"),
-    ("streamlit", "streamlit"),
-    ("matplotlib", "matplotlib"),
-]:
-    try:
-        mod = importlib.import_module(package)
-        version = getattr(mod, "__version__", "unknown")
-        check(f"{package} installed: {version}", True)
-    except ImportError:
-        check(
-            f"{package} installed",
-            False,
-            f"Run: pip install {install_name}",
+def _show_result(name, passed, detail, points):
+    """Display a single check result with color coding."""
+    if passed:
+        st.markdown(
+            '<div style="background-color: #d4edda; border-left: 4px solid #28a745; '
+            'padding: 8px 12px; margin-bottom: 8px; border-radius: 4px;">'
+            '<strong style="color: #155724;">PASS</strong> - '
+            '<strong>%s</strong> (%d pts)<br/>'
+            '<span style="color: #155724;">%s</span></div>'
+            % (name, points, detail),
+            unsafe_allow_html=True,
+        )
+    else:
+        st.markdown(
+            '<div style="background-color: #f8d7da; border-left: 4px solid #dc3545; '
+            'padding: 8px 12px; margin-bottom: 8px; border-radius: 4px;">'
+            '<strong style="color: #721c24;">FAIL</strong> - '
+            '<strong>%s</strong> (%d pts)<br/>'
+            '<span style="color: #721c24;">%s</span></div>'
+            % (name, points, detail),
+            unsafe_allow_html=True,
         )
 
-# data/ folder
-repo_root = Path(__file__).parent.parent
-data_dir = repo_root / "data"
-check(
-    "data/ folder found",
-    data_dir.is_dir(),
-    f"Expected at: {data_dir}",
-)
 
-# Unit checks
-checks_dir = Path(__file__).parent / "checks"
-unit_check_files = sorted(checks_dir.glob("unit*_checks.py")) if checks_dir.exists() else []
+def _discover_assignments():
+    """Find all available check modules and collect their assignments."""
+    assignments = {}
+    unit_modules = [
+        "checks.unit1_checks",
+        "checks.unit2_checks",
+        "checks.unit3_checks",
+        "checks.unit4_checks",
+    ]
 
-if unit_check_files:
-    for check_file in unit_check_files:
-        unit_name = check_file.stem.replace("_", " ").title()
+    for module_path in unit_modules:
         try:
-            spec = importlib.util.spec_from_file_location(check_file.stem, check_file)
-            mod = importlib.util.module_from_spec(spec)
-            mod.REPO_ROOT = repo_root
-            spec.loader.exec_module(mod)
-            errors = mod.run_checks()
-            if errors:
-                for err in errors:
-                    check(f"{unit_name}: {err}", False)
-            else:
-                check(f"{unit_name}: all passed", True)
-        except Exception as e:
-            check(f"{unit_name}: error running checks", False, str(e))
-else:
-    print("[INFO] No unit checks found in setup/checks/")
+            mod = __import__(module_path, fromlist=["get_assignments"])
+            if hasattr(mod, "get_assignments"):
+                unit_assignments = mod.get_assignments()
+                # unit_assignments is a dict: {"Assignment Name": check_function}
+                assignments.update(unit_assignments)
+        except (ImportError, ModuleNotFoundError):
+            pass
+        except Exception:
+            pass
 
-# Summary
-print()
-passed = sum(1 for ok, _ in results if ok)
-total = len(results)
-if passed == total:
-    print("All checks passed. You are ready for class.")
-else:
-    print(f"{passed}/{total} checks passed. See hints above.")
-    sys.exit(1)
+    return assignments
+
+
+def run_self_check():
+    """Main self-check page. Call this from your app."""
+
+    st.title("Self-Check: Peak Fuel Foods")
+    st.caption(
+        "Select an assignment below, then check your progress. "
+        "Your goal is 100% before submitting."
+    )
+
+    # Discover available assignments
+    assignments = _discover_assignments()
+
+    if not assignments:
+        st.error(
+            "No check modules found. Make sure the checks/ folder "
+            "is in your repo with __init__.py and at least unit1_checks.py."
+        )
+        return
+
+    # Let student select which assignment to check
+    st.divider()
+    assignment_names = list(assignments.keys())
+    selected = st.selectbox(
+        "Which assignment are you working on?",
+        assignment_names,
+        index=0,
+    )
+
+    st.divider()
+
+    # Run only the selected assignment's checks
+    check_fn = assignments[selected]
+    try:
+        checks = check_fn()
+    except Exception as e:
+        st.error("Error running checks: %s" % str(e))
+        return
+
+    st.header(selected)
+
+    total_earned = 0
+    total_possible = 0
+
+    for name, passed, detail, points in checks:
+        total_possible += points
+        if passed:
+            total_earned += points
+        _show_result(name, passed, detail, points)
+
+    # Summary
+    st.divider()
+    pct = int(total_earned / total_possible * 100) if total_possible > 0 else 0
+
+    col1, col2 = st.columns(2)
+    col1.metric("Score", "%d%%" % pct)
+    col2.metric("Points", "%d / %d" % (total_earned, total_possible))
+
+    if pct == 100:
+        st.balloons()
+        st.success(
+            "All checks passed! This assignment is ready to submit. "
+            "Copy your Streamlit URL and submit it on Canvas."
+        )
+    elif pct >= 75:
+        st.warning(
+            "%d point(s) remaining. Keep going -- you're almost there."
+            % (total_possible - total_earned)
+        )
+    else:
+        st.error(
+            "%d point(s) remaining. Fix one issue at a time, commit, "
+            "and check again." % (total_possible - total_earned)
+        )
+
+    st.divider()
+    st.caption(
+        "This checker validates data files and app structure. "
+        "It cannot verify that filters, charts, and metrics display "
+        "correctly -- verify those yourself by clicking through your app."
+    )
