@@ -1,70 +1,79 @@
-# SCM 478: Grading
+# SCM 478 Grading
 
----
+## Assessment Framework
 
-## Grade Breakdown
+| Assessment | Weight | What It Measures |
+|---|---|---|
+| Module Builds (8) | 15% | Does the app work? Is it deployed? |
+| Homework (10) | 15% | Practice and preparation between scenarios. |
+| Transfer Exams (4) | 30% | Can you apply skills to a new company? Spec brief + app + walkthrough. |
+| Mega Exam | 30% | Integrated system: correct, connected, documented. Different company. |
+| Oral Demonstration | 10% | Can you explain and defend your system live? |
 
-| Category | Weight | Notes |
-|----------|--------|-------|
-| Readiness Assurance Tests (RATs) | 10% | Completed at the start of select class periods |
-| In-Class Exercises | 15% | Completed during class; must be present to earn credit |
-| Homework Assignments | 25% | 8 assignments across the semester |
-| Transfer Exams (4) | 30% | 4 exams × 7.5% each |
-| Kunzler Mega Exam (Capstone) | 20% | Final cumulative build exam |
-| **Total** | **100%** | |
+## Module Builds (15%)
 
----
+Module Builds are pass/fail. Your app either meets the requirements or it doesn't.
+
+**How they're graded:** Your app includes a Self-Check page that runs automated validation checks. Each check has a point value. Your Self-Check score is the primary grade input, subject to visual verification by the instructor (filters work, charts display, metrics show correct values).
+
+- **100% on Self-Check + app works visually = Complete**
+- **Anything less = Incomplete -- resubmit**
+
+You can resubmit Module Builds until they pass.
+
+## Homework (15%)
+
+Homework assignments extend the Peak Fuel app with new features that Maria needs. Each homework is framed as Maria's operational question -- you figure out what data and calculations answer her question, then use AI to build it.
+
+Homework is graded on the same Self-Check system as Module Builds. Some homeworks have additional requirements (explanations, recommendations) that are evaluated by the instructor.
+
+## Transfer Exams (30%)
+
+Transfer Exams present a **different company** with different data. You must apply the skills you built with Peak Fuel to a novel context. You cannot copy-paste your Peak Fuel code -- you must understand the SCM concepts well enough to rebuild them for a new scenario.
+
+Each Transfer Exam has three components:
+1. **Specification Brief (1-2 pages):** Written document describing the system design -- inputs, outputs, calculations, and downstream connections. No code.
+2. **Deployed Streamlit App:** A working application meeting the exam requirements.
+3. **Walkthrough (2-3 minutes):** In the following class, you walk the instructor through your app and explain your design decisions.
+
+## Mega Exam (30%)
+
+The Mega Exam is the capstone. It uses Kunzler's cafe data -- a completely different company from Peak Fuel. You build an integrated system with four connected modules: forecasting, planning, inventory, and purchasing.
+
+Submitted as: deployed app + GitHub repo + architecture document (3-5 pages).
+
+## Oral Demonstration (10%)
+
+A 5-7 minute live demo of your Mega Exam app, followed by 2-3 minutes of questions from the instructor. You must explain how your modules connect, what calculations they perform, and why you made specific design decisions.
+
+## Self-Check System
+
+Every app you build includes a Self-Check page that validates your work against the assignment requirements. The Self-Check:
+
+- Shows green (pass) or red (fail) for each requirement
+- Displays the point value of each check
+- Tells you what's wrong but not how to fix it
+- Only shows checks for the assignment you select from a dropdown
+
+**Use it constantly.** After every change: commit, wait for redeploy, click Self-Check. Fix one issue at a time. Your goal is always 100% before submitting.
+
+See [setup/self-check-setup.md](setup/self-check-setup.md) for installation instructions.
+
+## Late Policy
+
+Module Builds and Homework can be resubmitted until the end of the unit with no penalty. Transfer Exams are due on the assigned date. The Mega Exam and Oral Demonstration are due in Week 13.
 
 ## Grade Scale
 
 | Grade | Percentage |
-|-------|-----------|
-| A | 93–100% |
-| A- | 90–92% |
-| B+ | 87–89% |
-| B | 83–86% |
-| B- | 80–82% |
-| C+ | 77–79% |
-| C | 73–76% |
-| C- | 70–72% |
-| D | 60–69% |
+|---|---|
+| A | 93-100% |
+| A- | 90-92% |
+| B+ | 87-89% |
+| B | 83-86% |
+| B- | 80-82% |
+| C+ | 77-79% |
+| C | 73-76% |
+| C- | 70-72% |
+| D | 60-69% |
 | F | Below 60% |
-
----
-
-## Assignment Types
-
-### Readiness Assurance Tests (RATs)
-
-Short quizzes (5–10 questions) given at the start of class to confirm you completed the assigned reading or pre-class preparation. RATs are taken individually and are not retakable.
-
-### In-Class Exercises
-
-Hands-on coding tasks completed during class. These are graded on completion and effort, not perfection. You must be present in class to earn credit. If you miss a class, the exercise cannot be made up without prior instructor approval.
-
-### Homework Assignments
-
-Multi-step builds completed outside of class. Each homework builds on the prior week's in-class work and prepares you for the transfer exam. Submissions are made via Canvas. Late work is accepted with a 10% per-day penalty unless an extension is arranged in advance.
-
-### Transfer Exams
-
-Closed-book, independent builds completed during a single class period. You will receive a new scenario (different company, different data) and must build a working Streamlit application from scratch using the skills from the preceding build weeks. No collaboration. No AI assistance.
-
-### Kunzler Mega Exam
-
-The final exam. Like a transfer exam, but cumulative — it covers all four phases of the course. The scenario involves Kunzler & Company, a real meat processing firm. Details provided in Week 13.
-
----
-
-## Late Work Policy
-
-- Homework: 10% deduction per calendar day late
-- Transfer Exams: Not accepted late (make-up only with documented emergency)
-- RATs: Not retakable; missed RATs receive a zero
-- In-Class Exercises: Not made up without prior arrangement
-
----
-
-## Academic Integrity
-
-Submitted work must be your own. See [AI Policy](ai-policy.md) for rules on AI tool use. Violations will result in a zero on the assignment and may be referred to the Honor Code Office.
