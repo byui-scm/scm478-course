@@ -9,7 +9,7 @@
 
 > "I need to see what's selling. Which products are growing? Which are flat? I make ordering decisions based on gut feel right now — I want to see the actual numbers."
 
-She hands you a new file: [Sales Log.csv](data/Sales_Log.csv). It contains 143 transactions spread across eleven weeks, five products, and three sales channels.
+She hands you a new file: [Sales Log.csv](https://git-link.vercel.app/api/download?url=https%3A%2F%2Fgithub.com%2Fbyui-scm%2Fscm478-course%2Fblob%2Fmain%2Fdata%2F&filename=Sales_Log.csv). It contains 143 transactions spread across eleven weeks, five products, and three sales channels.
 
 ---
 
