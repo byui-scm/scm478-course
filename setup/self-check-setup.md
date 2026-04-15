@@ -1,61 +1,166 @@
-# Self-Check Setup
+# Week 01 - Adding the Self-Check Module to Your App
 
-The self-check script verifies that your environment is correctly configured before you start each unit. Run it whenever you're not sure if your setup is working.
+## Adding the Self-Check Module to Your App
+**SCM 478 — Setup Guide**
+
+Do this once at the start of the semester. New check files will be added each unit.
 
 ---
 
-## Running the Self-Check
+## What the Self-Check Does
 
-From the root of the course repository, with your virtual environment activated:
+The Self-Check is a page in your app that automatically tests whether your app meets the assignment requirements. Each check tells you:
 
-```bash
-python setup/self_check.py
+- What's being checked (e.g., "Ingredient Catalog file loads")
+- Whether it passes (green check or red X)
+- How many points it's worth (matches the rubric)
+- What's wrong if it fails (e.g., "File not found. Upload Ingredient_Catalog.csv.")
+
+It does NOT tell you how to fix the problem — that's your job. It tells you what the problem is and how much it costs.
+
+Run the Self-Check every time you make a change. Your goal is 100% before you submit.
+
+---
+
+## File Structure
+
+Your repo should look like this after setup:
+
+```
+scm478-peak-fuel/
+
+  app.py                           <- your main app
+  self_check.py                    <- self-check page (add once, never change)
+  requirements.txt                 <- streamlit, pandas, plotly
+  checks/
+    __init__.py                    <- makes checks/ a Python package
+    unit1_checks.py                <- Unit 1 checks (Weeks 1-4)
+  Products___Pricing.csv           <- data file (Week 1)
+  Ingredient_Catalog.csv           <- data file (Week 1)
+  Vendor_Contacts___Terms.csv      <- data file (Homework 1)
 ```
 
----
-
-## Expected Output (Passing)
+As the semester progresses, new check files are released:
 
 ```
-SCM 478 Environment Self-Check
-================================
-[PASS] Python version: 3.11.x
-[PASS] pandas installed: 2.x.x
-[PASS] streamlit installed: 1.x.x
-[PASS] matplotlib installed: 3.x.x
-[PASS] data/ folder found
-[PASS] Unit 1 checks: all passed
-
-All checks passed. You are ready for class.
+checks/
+  __init__.py
+  unit1_checks.py     <- released Week 1
+  unit2_checks.py     <- released Week 5
+  unit3_checks.py     <- released Week 8
+  unit4_checks.py     <- released Week 11
 ```
 
----
-
-## If a Check Fails
-
-Each failure message includes a hint. Common fixes:
-
-| Failure | Fix |
-|---------|-----|
-| `pandas not installed` | Run `pip install pandas` (make sure your venv is active) |
-| `streamlit not installed` | Run `pip install streamlit` |
-| `data/ folder not found` | Make sure you are running from the repo root, not the `setup/` folder |
-| `Python version too old` | Install Python 3.10 or later from python.org |
+Each new file adds checks for that unit's assignments. Previous checks remain — if you break something from an earlier week, you'll see it.
 
 ---
 
-## Unit-Specific Checks
+## Step-by-Step Setup
 
-As the semester progresses, unit-specific checks will be added to `setup/checks/`. Running `self_check.py` automatically runs all available unit checks.
+### Step 1: Download the self-check files
 
-Current checks:
-- `unit1_checks.py` — verifies Week 1 data files are present and readable
+Your instructor will provide three files. Download them:
+
+- `self_check.py`
+- `checks/__init__.py`
+- `checks/unit1_checks.py`
+
+### Step 2: Upload to your GitHub repo
+
+1. Go to your GitHub repo in your browser
+2. Upload `self_check.py` to the root of your repo (same level as `app.py`)
+3. Create the `checks` folder and add `__init__.py`:
+   - Click **Add file** → **Create new file**
+   - In the filename field, type `checks/__init__.py`
+   - Paste the contents of `__init__.py`
+   - Click **Commit changes**
+4. Add the Unit 1 checks:
+   - Click **Add file** → **Create new file**
+   - In the filename field, type `checks/unit1_checks.py`
+   - Paste the contents of `unit1_checks.py`
+   - Click **Commit changes**
+
+### Step 3: Add Self-Check to your app's navigation
+
+In your `app.py`, add `"Self-Check"` as a sidebar navigation option. Here's the pattern:
+
+```python
+import self_check
+
+# In your sidebar navigation:
+page = st.sidebar.radio(
+    "Go to",
+    ["Dashboard", "Ingredients", "Sales", "Purchasing", "Self-Check"]
+)
+
+# In your page routing:
+if page == "Self-Check":
+    self_check.run_self_check()
+elif page == "Dashboard":
+    # ... your dashboard code
+elif page == "Ingredients":
+    # ... your ingredients code
+# ... etc.
+```
+
+### Step 4: Commit and verify
+
+1. Commit your changes to GitHub
+2. Wait for Streamlit to redeploy (30–60 seconds)
+3. Click **Self-Check** in your sidebar
+4. You should see the check results
 
 ---
 
-## Getting Help
+## How to Use Self-Check During Development
 
-If your self-check fails and you cannot resolve it with the table above, post in the Canvas discussion board and include:
-1. The full output of `python setup/self_check.py`
-2. The output of `python --version`
-3. Your operating system (Windows/Mac/Linux)
+1. Build one feature (e.g., load the Ingredient Catalog)
+2. Commit to GitHub
+3. Wait for Streamlit to redeploy (30–60 seconds)
+4. Click **Self-Check** in your sidebar
+5. Read the results — find the first red X
+6. Fix that one issue
+7. Repeat until everything is green
+
+Don't try to fix everything at once. Fix one thing, commit, check.
+
+---
+
+## How Grading Works
+
+The Self-Check percentage IS your score for Module Builds, subject to two conditions:
+
+1. Self-Check shows 100% on the relevant section
+2. The app actually works when the instructor clicks through it (filters filter, charts display, metrics show correct values)
+
+The self-check verifies that the right files are loaded, the right columns exist, and the right data connections are in place. It cannot verify that your UI works correctly — that's your responsibility.
+
+If Self-Check shows 100% but the app doesn't work visually, the instructor will ask you to resubmit.
+
+---
+
+## Adding New Unit Checks
+
+When a new unit begins, your instructor will release a new check file (e.g., `unit2_checks.py`). To add it:
+
+1. Download the file
+2. Upload it to the `checks/` folder in your GitHub repo
+3. Commit
+
+The Self-Check page will automatically discover and display the new checks. You don't need to change `self_check.py` or `app.py` — the system discovers new check files automatically.
+
+---
+
+## Troubleshooting
+
+**"No check modules found"**
+The `checks/` folder is missing or empty. Make sure you have `checks/__init__.py` and `checks/unit1_checks.py` in your repo.
+
+**File-not-found errors for CSV files**
+The check is looking for specific filenames. Make sure your CSV files are named exactly as expected (e.g., `Ingredient_Catalog.csv`, not `ingredient-catalog.csv`). Check capitalization and underscores.
+
+**Checks pass but app looks broken**
+The self-check validates data structure, not visual layout. If your data loads correctly but the page looks wrong, the issue is in your display code — ask AI to help fix the layout.
+
+**Self-Check page doesn't appear in sidebar**
+Make sure you imported `self_check` at the top of `app.py` and added the `"Self-Check"` option to your sidebar navigation. See Step 3 above.
