@@ -11,7 +11,7 @@ Instructor: John Chapman | BYU-Idaho | Spring 2026
 - [Syllabus](syllabus.md)
 - [Schedule](schedule.md)
 - [Grading](grading.md)
-- [Getting Started](setup/getting-started.md) -- create your accounts here
+- [Getting Started](weeks/week-01/day1-intro.md) -- start here on Day 1
 - [Data Files](data/) -- Peak Fuel Foods data dictionary and downloads
 - [AI Policy](ai-policy.md)
 - [Self-Check Setup](setup/self-check-setup.md)
