@@ -32,7 +32,7 @@ Over 13 weeks, you will construct an application that helps Maria:
 
 You don't need to know how to code. **AI writes the code. You provide the supply chain logic.** The assessable skill is not programming -- it is designing systems that solve real operational problems and explaining how they work.
 
-The capstone Mega Exam uses a **completely different company** (Kunzler's cafe) to test whether you can transfer your skills to a new context.
+The capstone Mega Exam uses a **completely different company** to test whether you can transfer your skills to a new context.
 
 ## Practice Company
 
