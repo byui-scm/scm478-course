@@ -81,7 +81,7 @@ Teams are formed today. Your instructor will facilitate.
 
 Complete all of the following before the next class session. Day 2 starts with a RAT — there is no time to catch up in class.
 
-1. **Set up your accounts** — follow [Getting Started](../../setup/getting-started.md) to create your GitHub and Streamlit accounts and deploy your first app
+1. **Set up your accounts** — follow [Tutorial: Setup your Stack](../../setup/tutorial-setting-up-your-stack.md) to create your GitHub and Streamlit accounts and deploy your first app
 2. **Read the Founder's Story** — [readings/founders-story.md](../../readings/founders-story.md) — understand who Maria is and what problems she faces
 3. **Read Mapping Business Operations to Data** — [readings/mapping-business-operations.md](../../readings/mapping-business-operations.md) — this is the conceptual foundation for the RAT
 
