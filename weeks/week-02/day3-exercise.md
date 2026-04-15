@@ -9,7 +9,7 @@
 
 > "I need to see what's selling. Which products are growing? Which are flat? I make ordering decisions based on gut feel right now — I want to see the actual numbers."
 
-She hands you a new file: `Sales Log.csv`. It contains 143 transactions spread across eleven weeks, five products, and three sales channels.
+She hands you a new file: [Sales Log.csv](data/Sales_Log.csv). It contains 143 transactions spread across eleven weeks, five products, and three sales channels.
 
 ---
 
