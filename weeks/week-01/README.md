@@ -8,9 +8,9 @@
 
 | | What | Details |
 |---|---|---|
-| **Before Day 1** | Read | [Founder's Story](../../readings/founders-story.md), [Mapping Business Operations to Data](../../readings/mapping-business-operations.md) |
-| **Before Day 1** | Setup | [Create GitHub and Streamlit accounts](../../setup/getting-started.md) |
 | **Day 1** | In class | Course introduction, Mega Exam demo, team formation |
+| **Before Day 2** | Read | [Founder's Story](../../readings/founders-story.md), [Mapping Business Operations to Data](../../readings/mapping-business-operations.md) |
+| **Before Day 2** | Setup | [Create GitHub and Streamlit accounts](../../setup/getting-started.md) |
 | **Day 2** | In class | [RAT](day2-rat.md) + [Build Ingredient Catalog Viewer](day2-exercise.md) |
 | **After Day 2** | Homework | [HW1: Supplier Lookup](homework1.md) -- due before Week 2 |
 

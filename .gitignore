@@ -1,0 +1,25 @@
+# Windows Explorer metadata
+desktop.ini
+Thumbs.db
+ehthumbs.db
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.egg
+
+# Claude Code worktrees
+.claude/worktrees/
+
+# Editor
+.vscode/
+*.swp
+*.swo
