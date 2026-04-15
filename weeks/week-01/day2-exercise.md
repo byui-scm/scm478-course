@@ -11,7 +11,7 @@ Before we start building, verify:
 
 - [ ] GitHub account with a repo for this course
 - [ ] Deployed Streamlit app visible at your URL
-- [ ] Two CSV files downloaded: `Products___Pricing.csv` and `Ingredient_Catalog.csv`
+- [ ] Two CSV files downloaded: [Products___Pricing.csv](https://git-link.vercel.app/api/download?url=https%3A%2F%2Fgithub.com%2Fbyui-scm%2Fscm478-course%2Fblob%2Fmain%2Fdata%2F&filename=Products___Pricing.csv) and [Ingredient_Catalog.csv`](https://git-link.vercel.app/api/download?url=https%3A%2F%2Fgithub.com%2Fbyui-scm%2Fscm478-course%2Fblob%2Fmain%2Fdata%2F&filename=Ingredient_Catalog.csv)
 
 If anything isn't working, raise your hand now.
 
