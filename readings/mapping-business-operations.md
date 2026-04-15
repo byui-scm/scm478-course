@@ -22,7 +22,30 @@ When approaching any new business scenario — in homework, on transfer exams, o
 
 ## Applying the Framework to Peak Fuel Foods
 
-*[Instructor will add worked example here showing how Products, Ingredients, Vendors, POs, and Sales all connect in the Peak Fuel data model.]*
+Let's apply the three questions to Maria's business.
+
+**What flows?**
+The primary objects moving through Peak Fuel's system are: raw ingredients (from suppliers into inventory), finished products (from production into finished goods), purchase orders (from Maria to suppliers), sales orders (from retailers to Maria), and cash (in both directions).
+
+**Where does it go?**
+```
+Suppliers → PO → Receiving → Ingredient Inventory
+                                      ↓
+                             Production (Recipes apply)
+                                      ↓
+                           Finished Product Inventory
+                                      ↓
+                             Retailers / Consumers → Sales Log
+```
+
+**What can go wrong?**
+Maria's answer to this question is the entire premise of this course:
+- A supplier is late → she doesn't know which products are affected
+- Demand spikes → she doesn't know if she has enough ingredients
+- She runs out of a key ingredient mid-week → she finds out when production starts, not Friday when she could have reordered
+- A retailer asks for a trace-back → she can't connect a finished burrito to the shipment of chicken that went into it
+
+Every tool you build this semester is a direct response to one of these risks.
 
 ---
 

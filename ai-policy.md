@@ -1,53 +1,43 @@
-# SCM 478: AI Tool Policy
+# AI Usage Policy
 
----
+## SCM 478: Operations Analysis and Modeling
 
-## Overview
+### The Short Version
 
-Artificial intelligence tools (ChatGPT, GitHub Copilot, Claude, etc.) are a real part of modern software development. This course takes a nuanced approach: AI tools are a **learning aid**, not a substitute for building your own skills. The goal is for you to leave this course able to build SCM systems on your own — AI or not.
+AI is your coding partner, not your thinking partner. Use it to write code. You provide the supply chain logic.
 
----
+### The Full Policy
 
-## Where AI Is Allowed
+AI tools (Claude, ChatGPT, GitHub Copilot, and similar) are **expected and encouraged** in this course. You will use AI to write Python code, debug errors, generate Streamlit layouts, and build features for your supply chain applications. This is not a programming course -- AI handles the programming. Your job is to:
 
-### Homework Assignments
+1. **Understand the supply chain problem** before you prompt the AI
+2. **Direct the AI** with clear descriptions of what the system should do
+3. **Verify the output** -- check that the AI's code produces correct SCM results
+4. **Explain your system** to a non-technical audience (Maria, your teammates, the instructor)
 
-You **may** use AI tools on homework with the following conditions:
+### What's Allowed
 
-1. **You must understand every line you submit.** If you cannot explain what a line of code does, you should not submit it.
-2. **You must disclose AI use.** Add a comment at the top of any file where you used an AI tool: `# AI-assisted: [tool name]`
-3. **AI may not write the whole solution.** Use AI to get unstuck, debug errors, understand concepts, or explore alternatives — not to generate a complete submission.
+- Using AI to write code for any assignment
+- Using AI to debug errors in your app
+- Using AI to explain Python or Streamlit concepts you don't understand
+- Using AI to brainstorm features or approaches
+- Using multiple AI tools (switching between Claude and ChatGPT is fine)
+- Sharing prompting strategies with classmates
 
-### In-Class Exercises
+### What's Not Allowed
 
-AI tool use during in-class exercises is **at the instructor's discretion** and will be announced at the start of each session. When in doubt, ask before using.
+- Submitting an app you cannot explain
+- Copying another student's app code or specification brief
+- Sharing Transfer Exam or Mega Exam solutions with other students
+- Using AI to write your specification brief without understanding the content (you must be able to defend every claim in your brief during the walkthrough)
+- Having another person (not AI) build your app for you
 
----
+### How This Is Enforced
 
-## Where AI Is Not Allowed
+- **Walkthroughs (Transfer Exams):** You explain your app for 2-3 minutes. If you can't explain what it does and why, the exam grade is affected.
+- **Oral Demonstration (Mega Exam):** You demo your system live and answer follow-up questions. This is where understanding is tested directly.
+- **Self-Check system:** Validates that your app meets structural requirements, but cannot verify that you understand it. The human assessments (walkthroughs, oral demo) do that.
 
-### Readiness Assurance Tests (RATs)
+### The Professional Parallel
 
-No AI tools. RATs measure whether you read and understood the material. Using AI defeats the purpose.
-
-### Transfer Exams
-
-**No AI tools of any kind.** Transfer exams test your ability to independently build a working system. They are closed-book, no-internet, no-AI. Violations will result in a zero and an academic integrity referral.
-
-### Kunzler Mega Exam
-
-Same rules as transfer exams. No AI tools.
-
----
-
-## The Underlying Principle
-
-This course teaches transferable skills. A student who uses AI to complete every homework will struggle on exams — and more importantly, will struggle after graduation. The restriction on exams is not punitive; it is diagnostic. If you cannot build without AI during an exam, that tells us something important.
-
-Use AI to learn faster. Do not use it to skip the learning.
-
----
-
-## Questions
-
-If you are unsure whether a particular use of an AI tool is appropriate, ask before you use it. "I didn't know" is not an excuse for an academic integrity violation, but asking in advance always is.
+In industry, supply chain professionals increasingly use AI to build dashboards, automate calculations, and generate reports. The professional who thrives is the one who knows what to ask for, can verify the output, and can explain the results to leadership. That's exactly what this course develops.
