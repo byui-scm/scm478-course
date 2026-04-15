@@ -1,46 +1,35 @@
-# Week 1 — Peak Fuel Product Catalog (Display Only)
+# Week 1: Peak Fuel Product Catalog
 
-**Theme:** Load and display structured supply chain data in a Streamlit app.
-
----
-
-## Learning Objectives
-
-By the end of this week, you will be able to:
-
-- Load a CSV file into a pandas DataFrame
-- Display a DataFrame in a Streamlit app
-- Add basic filtering controls (sidebar selectbox, text input)
-- Run a Streamlit app locally
+**Unit 1: Peak Fuel Dashboard | Scaffolding: Heavy**
 
 ---
 
-## Schedule
+## This Week at a Glance
 
-| Session | Content |
-|---------|---------|
-| Day 1 | [Introduction and Setup](day1-intro.md) |
-| Day 2 | [RAT + In-Class Exercise](day2-rat.md) — [Exercise File](day2-exercise.md) |
+| | What | Details |
+|---|---|---|
+| **Before Day 1** | Read | [Founder's Story](../../readings/founders-story.md), [Mapping Business Operations to Data](../../readings/mapping-business-operations.md) |
+| **Before Day 1** | Setup | [Create GitHub and Streamlit accounts](../../setup/getting-started.md) |
+| **Day 1** | In class | Course introduction, Mega Exam demo, team formation |
+| **Day 2** | In class | [RAT](day2-rat.md) + [Build Ingredient Catalog Viewer](day2-exercise.md) |
+| **After Day 2** | Homework | [HW1: Supplier Lookup](homework1.md) -- due before Week 2 |
 
----
+## Data Files Needed
 
-## Data Files Used This Week
+Download from [data/](../../data/):
 
-- `data/Products___Pricing.csv`
-- `data/Ingredient_Catalog.csv`
+- `Products___Pricing.csv` (5 products)
+- `Ingredient_Catalog.csv` (33 ingredients)
+- `Vendor_Contacts___Terms.csv` (24 suppliers -- needed for Homework 1)
 
-See [data/README.md](../../data/README.md) for column descriptions.
+## SCM Concept
 
----
+**Master data** -- the ingredient catalog and product catalog are the foundation of every supply chain system. Maria's entire operation depends on these being accurate. Every ERP system starts with a parts table. This week you build one.
 
-## Homework
+## What You'll Build
 
-[Homework 1](homework1.md) — adds Vendor Contacts to your app. Due date on Canvas.
+A Streamlit app that loads Peak Fuel's product and ingredient data, displays it as a filterable table, and adds dropdown filters by supplier. By the end of the homework, your app will also show supplier contact info and lead times connected to each ingredient via the shared Supplier ID key.
 
----
+## Self-Check
 
-## Readings
-
-Complete before Day 1:
-- [Founder's Story: Peak Fuel Foods](../../readings/founders-story.md)
-- [Mapping Business Operations](../../readings/mapping-business-operations.md)
+After completing the [Self-Check setup](../../setup/self-check-setup.md), select "Week 1 In-Class: Ingredient Catalog Viewer" from the dropdown to verify your in-class work, then select "Homework 1: Supplier Lookup" to verify your homework.
